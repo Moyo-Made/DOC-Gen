@@ -1,0 +1,30 @@
+{
+	"name": "doc-gen-cli",
+	"version": "1.0.0",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "Madev",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"@babel/parser": "^7.25.0",
+		"acorn": "^8.12.1",
+		"chalk": "^5.3.0",
+		"commander": "^12.1.0",
+		"comment-parser": "^1.4.1",
+		"fs-extra": "^11.2.0",
+		"glob": "^11.0.0",
+		"python-ast": "^0.1.0",
+		"simple-git": "^3.25.0"
+	},
+	"devDependencies": {
+		"jest": "^29.7.0"
+	},
+	"bin": {
+		"doc-gen": "./index.js"
+	}
+}
